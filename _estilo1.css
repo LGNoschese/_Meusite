@@ -1,0 +1,40 @@
+@charset "utf8";
+body {
+    font-family: 'Montserrat';
+    background-color: #d2d4f3;
+}
+
+header#cabeçalho img#icone {
+    position: absolute;
+    padding: 10px 10px auto auto;
+}
+
+div#interface {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+section#corpo-full {
+    background: #204353ce;
+    height: 80vh;
+    margin: 50px;
+    display: flex;
+    box-shadow: 0px 0px 15px #0e1066;
+}
+
+h1 {
+    font-size: 30px;
+    color: #ffffff;
+    position: relative;
+    margin: 30px auto auto 50px;
+}
+
+p {
+    font-size: 18px;
+    color: #ffffff;
+    position: relative;
+    justify-content: space-around;
+    margin: 90px auto auto -530px;
+}
